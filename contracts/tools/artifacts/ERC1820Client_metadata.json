@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Base client to interact with the registry.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/tools/ERC1820Client.sol": "ERC1820Client"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/introspection/IERC1820Registry.sol": {
+			"keccak256": "0x1e34ab6382525e2c48a01d9edbcfeab024072e8fa80332d48fb7011ebdf59562",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8d4c3a1cacb1b5ce5681edac3dc3034a9e6ea6b9e4ef338564ca70b9b6ea2fd7",
+				"dweb:/ipfs/QmXwhPvgGK4envqERyjh5W7CtrH72geAE7fh1EFcVerviw"
+			]
+		},
+		"contracts/tools/ERC1820Client.sol": {
+			"keccak256": "0xfa85e113e90b3fe9fd24bff60bac88222feaa216b1bcf0f89c6aa546fa7a4672",
+			"urls": [
+				"bzz-raw://cfa57f88d439f58668473b1f6bafd52e47c19abf28316ef1f70759aea65a672f",
+				"dweb:/ipfs/QmVBLWPDyJBaZkpWyM2YXbM8XbyXVR7N58jzZtXiJPWUwk"
+			]
+		}
+	},
+	"version": 1
+}
